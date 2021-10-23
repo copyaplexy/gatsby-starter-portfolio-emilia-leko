@@ -23,7 +23,7 @@ module.exports = {
         location: 'Brooklyn, New York',
         short_name: `KimonoArts`,
         showThemeAuthor: false,
-        description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
+        description: `KimonoArts`,
         start_url: `/`,
         background_color: `#fff`,
         // This will impact how browsers show your PWA/website
