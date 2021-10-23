@@ -7,7 +7,7 @@ module.exports = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/master/themes/gatsby-theme-emilia-core/gatsby-config.js
-    siteTitleAlt: `Emilia - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Kimono Arts`,
   },
   plugins: [
     {
@@ -19,8 +19,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Emilia - @lekoarts/gatsby-theme-emilia`,
-        short_name: `Emilia`,
+        name: `Kimono Arts`,
+        location: 'Brooklyn, New York',
+        short_name: `KimonoArts`,
+        showThemeAuthor: false,
         description: `Minimalistic portfolio/photography site with masonry grid, page transitions and big images. Themeable with Theme UI.`,
         start_url: `/`,
         background_color: `#fff`,
